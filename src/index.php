@@ -1,5 +1,5 @@
       <?php
-      echo "<h1>2222 oulà oulà!</h1> Users in DB mydb1 :<br />";
+      echo "<h1>2222 oulà oulà!</h1> Users in DB mydb :<br />";
       $secret_pass = getenv('USER_PASSWORD_TEST') ?: 'inconnu';
       $dbhost = getenv('DB_HOST') ?: 'inconnu';
       $pdo = new PDO(
